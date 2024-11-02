@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ares">
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="84dp"
+        android:layout_height="77dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.004"
+        app:srcCompat="@drawable/ares" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="전쟁, 투쟁 군인의신'아레스'"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.141" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="가정교육이 제대로 안 되어서인지 은근히 양아치 취급을 받는다. 키가 크고 잘생겼지만, 성격이 거칠고 사나워서 아프로디테를 제외한 다른 신들의 미움을 샀다고 한다. 부모인 제우스와 헤라조차도 그를 싫어했다고 한다. 그와 사이가 좋은 신을 꼽자면 아프로디테(사랑), 하데스와 페르세포네 부부(저승), 에니오(전쟁), 에리스(불화) 정도다. 제우스의 정실부인 헤라의 아들로 혈통은 가장 좋지만 그리스가 남긴 기록 중 후대에 전해진 것이 아테네 중심으로 서술된 게 굉장히 많아 같은 분야를 다루는 아테나에 비해 상대적으로 취급이 좋지 못한 기록들이 많다"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.28" />
+</androidx.constraintlayout.widget.ConstraintLayout>
