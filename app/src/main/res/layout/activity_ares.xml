@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ares">
+    tools:context=".Ares">
 
     <ImageView
         android:id="@+id/imageView16"
@@ -16,7 +16,7 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.004"
+        app:layout_constraintVertical_bias="0.02"
         app:srcCompat="@drawable/ares" />
 
     <TextView
@@ -30,15 +30,65 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.141" />
+        app:layout_constraintVertical_bias="0.156" />
 
     <TextView
         android:id="@+id/textView8"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="404dp"
+        android:layout_height="173dp"
+        android:layout_marginStart="4dp"
         android:text="가정교육이 제대로 안 되어서인지 은근히 양아치 취급을 받는다. 키가 크고 잘생겼지만, 성격이 거칠고 사나워서 아프로디테를 제외한 다른 신들의 미움을 샀다고 한다. 부모인 제우스와 헤라조차도 그를 싫어했다고 한다. 그와 사이가 좋은 신을 꼽자면 아프로디테(사랑), 하데스와 페르세포네 부부(저승), 에니오(전쟁), 에리스(불화) 정도다. 제우스의 정실부인 헤라의 아들로 혈통은 가장 좋지만 그리스가 남긴 기록 중 후대에 전해진 것이 아테네 중심으로 서술된 게 굉장히 많아 같은 분야를 다루는 아테나에 비해 상대적으로 취급이 좋지 못한 기록들이 많다"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.28" />
+        app:layout_constraintVertical_bias="0.793" />
+
+    <VideoView
+        android:id="@+id/videoView1"
+        android:layout_width="216dp"
+        android:layout_height="231dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.989"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.269" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="195dp"
+        android:layout_height="196dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.264"
+        app:srcCompat="@drawable/aresimage" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="402dp"
+        android:layout_height="143dp"
+        android:text="아레스는 그리스 신화에서 전쟁의 신으로, 전투의 잔인함과 폭력성을 상징했다. 이러한 이유로, 무질서하고 파괴적인 전쟁을 연상시키는 아레스는 대개 그리스인들에게 부정적인 존재로 인식되었다. 특히 아테나와의 비교가 두드러지는데, 아테나는 전략적이고 지혜로운 전쟁의 신으로서 아레스와는 대조적인 이미지를 지녔다. 아테나가 계획과 기술을 중시하는 반면, 아레스는 단순히 힘과 공격성에 의존하는 전쟁의 방식으로 다른 신들의 지지를 얻기 어려웠다."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.556" />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#80801b"
+        android:text="메인으로"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.472"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.884" />
 </androidx.constraintlayout.widget.ConstraintLayout>
