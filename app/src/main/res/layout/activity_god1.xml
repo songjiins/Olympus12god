@@ -74,7 +74,6 @@
 
     <ToggleButton
         android:id="@+id/tb1"
-
         style="@style/category_toggle"
         android:layout_width="85dp"
         android:layout_height="49dp"
@@ -267,7 +266,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.649"
-        app:srcCompat="@drawable/hera" />
+        app:srcCompat="@drawable/hera2" />
 
     <ToggleButton
         android:id="@+id/tb9"
@@ -549,11 +548,11 @@
         android:layout_height="77dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.951"
+        app:layout_constraintHorizontal_bias="0.954"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.177"
-        app:srcCompat="@drawable/poseidon" />
+        app:srcCompat="@drawable/poseidon2" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 

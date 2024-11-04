@@ -33,16 +33,8 @@ public class GOD1 extends AppCompatActivity {
         tb13 = findViewById(R.id.tb13);
         tb14 = findViewById(R.id.tb14);
 
-
-
-
-
         View.OnClickListener toggleClickListener = new View.OnClickListener() {
             @Override
-
-
-
-
 
             public void onClick(View view) {
                 int id = view.getId();
@@ -52,28 +44,28 @@ public class GOD1 extends AppCompatActivity {
                     openActivity(Demeter.class);
                 }else if (id == R.id.tb5) {
                     openActivity(Athens.class);
-                }else if (id == R.id.tb7) {
-                    openActivity(Demeter.class);
-                }else if (id == R.id.tb7) {
-                    openActivity(Demeter.class);
-                }else if (id == R.id.tb7) {
-                    openActivity(Demeter.class);
-                }else if (id == R.id.tb7) {
-                    openActivity(Demeter.class);
-                }else if (id == R.id.tb7) {
-                    openActivity(Demeter.class);
-                }else if (id == R.id.tb7) {
-                    openActivity(Demeter.class);
-                }else if (id == R.id.tb7) {
-                    openActivity(Demeter.class);
-                }else if (id == R.id.tb7) {
-                    openActivity(Demeter.class);
-                }else if (id == R.id.tb7) {
-                    openActivity(Demeter.class);
-                }else if (id == R.id.tb7) {
-                    openActivity(Demeter.class);
-                }else if (id == R.id.tb7) {
-                    openActivity(Demeter.class);
+                }else if (id == R.id.tb1) {
+                    openActivity(ZeusActivity.class);
+                }else if (id == R.id.tb4) {
+                    openActivity(PoseidonActivity.class);
+                }else if (id == R.id.tb9) {
+                    openActivity(HeraActivity.class);
+                }else if (id == R.id.tb13) {
+                    openActivity(HadesActivity.class);
+                }else if (id == R.id.tb3) {
+                    openActivity(AphroditeDetailActivity.class);
+                }else if (id == R.id.tb6) {
+                    openActivity(DionysusDetailActivity.class);
+                }else if (id == R.id.tb11) {
+                    openActivity(HestiaDetailActivity.class);
+                }else if (id == R.id.tb14) {
+                    openActivity(ApolonActivity.class);
+                }else if (id == R.id.tb12) {
+                    openActivity(ArtemisActivity.class);
+                }else if (id == R.id.tb8) {
+                    openActivity(HefitosActivity.class);
+                }else if (id == R.id.tb10) {
+                    openActivity(HermesActivity.class);
                 }
             }
         };

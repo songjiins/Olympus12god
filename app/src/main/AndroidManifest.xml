@@ -15,7 +15,37 @@
         android:theme="@style/Theme.King"
         tools:targetApi="31">
         <activity
-            android:name=".toglle"
+            android:name=".ApolonActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HefitosActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HermesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ArtemisActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AphroditeDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HestiaDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DionysusDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HadesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HeraActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PoseidonActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ZeusActivity"
             android:exported="false" />
         <activity
             android:name=".Athens"
