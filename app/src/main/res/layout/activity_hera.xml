@@ -3,6 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:background="@drawable/background"
     android:layout_height="match_parent">
 
     <RelativeLayout
@@ -16,20 +17,21 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.112">
 
         <ImageView
             android:id="@+id/heraImage"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_height="244dp"
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
-            android:layout_marginStart="3dp"
-            android:layout_marginTop="3dp"
-            android:layout_marginEnd="-2dp"
-            android:layout_marginBottom="516dp"
+            android:layout_marginStart="7dp"
+            android:layout_marginTop="214dp"
+            android:layout_marginEnd="221dp"
+            android:layout_marginBottom="267dp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:srcCompat="@drawable/hera" />
@@ -42,24 +44,24 @@
             android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
-            android:layout_marginStart="1dp"
-            android:layout_marginTop="440dp"
-            android:layout_marginEnd="3dp"
-            android:layout_marginBottom="201dp"
+            android:layout_marginStart="-1dp"
+            android:layout_marginTop="472dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="169dp"
             app:layout_constraintStart_toStartOf="parent" />
 
         <VideoView
             android:id="@+id/heraVideo"
-            android:layout_width="405dp"
-            android:layout_height="232dp"
+            android:layout_width="245dp"
+            android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
-            android:layout_marginStart="2dp"
-            android:layout_marginTop="206dp"
+            android:layout_marginStart="162dp"
+            android:layout_marginTop="215dp"
             android:layout_marginEnd="0dp"
-            android:layout_marginBottom="286dp" />
+            android:layout_marginBottom="268dp" />
 
         <Button
             android:id="@+id/button2"
@@ -69,12 +71,43 @@
             android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
-            android:layout_marginStart="21dp"
-            android:layout_marginTop="631dp"
-            android:layout_marginEnd="268dp"
-            android:layout_marginBottom="42dp"
-            android:backgroundTint="#1ACCE9"
-            android:text="초기화면" />
+            android:layout_marginStart="142dp"
+            android:layout_marginTop="649dp"
+            android:layout_marginEnd="147dp"
+            android:layout_marginBottom="24dp"
+            android:backgroundTint="#80801b"
+            android:text="메인으로"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView24"
+            android:layout_width="84dp"
+            android:layout_height="77dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="152dp"
+            android:layout_marginTop="80dp"
+            android:layout_marginEnd="171dp"
+            android:layout_marginBottom="568dp"
+            app:srcCompat="@drawable/hera2" />
+
+        <TextView
+            android:id="@+id/textView31"
+            android:layout_width="190dp"
+            android:layout_height="33dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="101dp"
+            android:layout_marginTop="167dp"
+            android:layout_marginEnd="116dp"
+            android:layout_marginBottom="525dp"
+            android:text="결혼과 가정의신 '헤라"
+            android:textSize="20sp"
+            android:textStyle="italic" />
 
 
     </RelativeLayout>

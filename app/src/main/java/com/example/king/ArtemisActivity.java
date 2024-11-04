@@ -6,7 +6,6 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
-import android.widget.TextView;
 import android.widget.VideoView;
 
 import androidx.activity.EdgeToEdge;
@@ -25,8 +24,7 @@ public class ArtemisActivity extends AppCompatActivity {
         ImageView artemisImage = findViewById(R.id.artemis);
         artemisImage.setImageResource(R.drawable.artemis2);
 
-        TextView interpretationText = findViewById(R.id.artemisok);
-        interpretationText.setText("1234");
+
 
         VideoView artemisvideo = findViewById(R.id.artemisvideo);
         Uri videoUri = Uri.parse("android.resource://" + getPackageName() + "/" + R.raw.deartemis);

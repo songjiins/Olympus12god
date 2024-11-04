@@ -3,6 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:background="@drawable/background"
     android:layout_height="match_parent">
 
     <RelativeLayout
@@ -16,20 +17,21 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.156">
 
         <ImageView
             android:id="@+id/zeusImage"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_width="136dp"
+            android:layout_height="229dp"
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
-            android:layout_marginStart="0dp"
-            android:layout_marginTop="2dp"
-            android:layout_marginEnd="0dp"
-            android:layout_marginBottom="517dp"
+            android:layout_marginStart="-5dp"
+            android:layout_marginTop="237dp"
+            android:layout_marginEnd="275dp"
+            android:layout_marginBottom="259dp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:srcCompat="@drawable/zeus" />
@@ -42,24 +44,24 @@
             android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
-            android:layout_marginStart="1dp"
-            android:layout_marginTop="440dp"
-            android:layout_marginEnd="3dp"
-            android:layout_marginBottom="201dp"
+            android:layout_marginStart="-1dp"
+            android:layout_marginTop="467dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="174dp"
             app:layout_constraintStart_toStartOf="parent" />
 
         <VideoView
             android:id="@+id/zeusVideo"
-            android:layout_width="405dp"
-            android:layout_height="232dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
-            android:layout_marginStart="2dp"
-            android:layout_marginTop="206dp"
+            android:layout_marginStart="127dp"
+            android:layout_marginTop="239dp"
             android:layout_marginEnd="0dp"
-            android:layout_marginBottom="286dp" />
+            android:layout_marginBottom="258dp" />
 
         <Button
             android:id="@+id/button1"
@@ -69,12 +71,43 @@
             android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
-            android:layout_marginStart="21dp"
-            android:layout_marginTop="631dp"
-            android:layout_marginEnd="268dp"
-            android:layout_marginBottom="42dp"
-            android:backgroundTint="#1ACCE9"
-            android:text="초기화면" />
+            android:layout_marginStart="141dp"
+            android:layout_marginTop="660dp"
+            android:layout_marginEnd="148dp"
+            android:layout_marginBottom="13dp"
+            android:backgroundTint="#80801b"
+            android:text="메인으로"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView35"
+            android:layout_width="251dp"
+            android:layout_height="33dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="83dp"
+            android:layout_marginTop="166dp"
+            android:layout_marginEnd="73dp"
+            android:layout_marginBottom="525dp"
+            android:text="천둥,번개,왕권의 신 '제우스'"
+            android:textSize="20sp"
+            android:textStyle="italic" />
+
+        <ImageView
+            android:id="@+id/imageView27"
+            android:layout_width="84dp"
+            android:layout_height="77dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="154dp"
+            android:layout_marginTop="66dp"
+            android:layout_marginEnd="169dp"
+            android:layout_marginBottom="582dp"
+            app:srcCompat="@drawable/fzeus" />
 
 
     </RelativeLayout>

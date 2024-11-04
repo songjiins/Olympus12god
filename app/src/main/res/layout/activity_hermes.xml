@@ -3,6 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:background="@drawable/background"
     android:layout_height="match_parent">
 
     <RelativeLayout
@@ -16,20 +17,21 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.126">
 
         <ImageView
             android:id="@+id/hermesImage"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_height="259dp"
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
-            android:layout_marginStart="0dp"
-            android:layout_marginTop="2dp"
-            android:layout_marginEnd="0dp"
-            android:layout_marginBottom="517dp"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="189dp"
+            android:layout_marginEnd="257dp"
+            android:layout_marginBottom="277dp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:srcCompat="@drawable/hermes2" />
@@ -42,24 +44,24 @@
             android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
-            android:layout_marginStart="1dp"
-            android:layout_marginTop="440dp"
-            android:layout_marginEnd="3dp"
-            android:layout_marginBottom="201dp"
+            android:layout_marginStart="6dp"
+            android:layout_marginTop="447dp"
+            android:layout_marginEnd="-2dp"
+            android:layout_marginBottom="194dp"
             app:layout_constraintStart_toStartOf="parent" />
 
         <VideoView
             android:id="@+id/hermesvideo"
-            android:layout_width="405dp"
-            android:layout_height="232dp"
+            android:layout_width="wrap_content"
+            android:layout_height="225dp"
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
-            android:layout_marginStart="2dp"
+            android:layout_marginStart="143dp"
             android:layout_marginTop="206dp"
             android:layout_marginEnd="0dp"
-            android:layout_marginBottom="286dp" />
+            android:layout_marginBottom="293dp" />
 
         <Button
             android:id="@+id/button7"
@@ -69,12 +71,43 @@
             android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
-            android:layout_marginStart="21dp"
-            android:layout_marginTop="631dp"
-            android:layout_marginEnd="268dp"
-            android:layout_marginBottom="42dp"
-            android:backgroundTint="#1ACCE9"
-            android:text="초기화면" />
+            android:layout_marginStart="132dp"
+            android:layout_marginTop="628dp"
+            android:layout_marginEnd="157dp"
+            android:layout_marginBottom="45dp"
+            android:backgroundTint="#80801b"
+            android:text="메인으로"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView33"
+            android:layout_width="254dp"
+            android:layout_height="31dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="83dp"
+            android:layout_marginTop="161dp"
+            android:layout_marginEnd="70dp"
+            android:layout_marginBottom="532dp"
+            android:text="전령,목동,연설의신 '헤르메스"
+            android:textSize="20sp"
+            android:textStyle="italic" />
+
+        <ImageView
+            android:id="@+id/imageView25"
+            android:layout_width="84dp"
+            android:layout_height="77dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="159dp"
+            android:layout_marginTop="78dp"
+            android:layout_marginEnd="164dp"
+            android:layout_marginBottom="570dp"
+            app:srcCompat="@drawable/hermes" />
 
 
     </RelativeLayout>

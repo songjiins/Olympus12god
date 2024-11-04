@@ -3,33 +3,36 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:background="@drawable/background"
     android:layout_height="match_parent">
 
     <RelativeLayout
         android:id="@+id/relativeLayout"
-        android:layout_width="407dp"
-        android:layout_height="725dp"
+        android:layout_width="418dp"
+        android:layout_height="720dp"
         android:layout_marginStart="1dp"
         android:layout_marginTop="1dp"
         android:layout_marginEnd="1dp"
         android:layout_marginBottom="1dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.555"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.395">
 
         <ImageView
             android:id="@+id/apolon"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_width="141dp"
+            android:layout_height="216dp"
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
-            android:layout_marginStart="0dp"
-            android:layout_marginTop="2dp"
-            android:layout_marginEnd="0dp"
-            android:layout_marginBottom="517dp"
+            android:layout_marginStart="292dp"
+            android:layout_marginTop="180dp"
+            android:layout_marginEnd="-15dp"
+            android:layout_marginBottom="324dp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:srcCompat="@drawable/apolon2" />
@@ -42,24 +45,24 @@
             android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
-            android:layout_marginStart="1dp"
-            android:layout_marginTop="440dp"
-            android:layout_marginEnd="3dp"
-            android:layout_marginBottom="201dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="438dp"
+            android:layout_marginEnd="-1dp"
+            android:layout_marginBottom="203dp"
             app:layout_constraintStart_toStartOf="parent" />
 
         <VideoView
             android:id="@+id/apolonvideo1"
-            android:layout_width="405dp"
-            android:layout_height="232dp"
+            android:layout_width="288dp"
+            android:layout_height="220dp"
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
-            android:layout_marginStart="2dp"
-            android:layout_marginTop="206dp"
-            android:layout_marginEnd="0dp"
-            android:layout_marginBottom="286dp" />
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="181dp"
+            android:layout_marginEnd="113dp"
+            android:layout_marginBottom="324dp" />
 
         <Button
             android:id="@+id/button5"
@@ -69,12 +72,43 @@
             android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
-            android:layout_marginStart="21dp"
-            android:layout_marginTop="631dp"
-            android:layout_marginEnd="268dp"
-            android:layout_marginBottom="42dp"
-            android:backgroundTint="#1ACCE9"
-            android:text="초기화면" />
+            android:layout_marginStart="145dp"
+            android:layout_marginTop="592dp"
+            android:layout_marginEnd="144dp"
+            android:layout_marginBottom="81dp"
+            android:backgroundTint="#80801b"
+            android:text="메인으로"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView21"
+            android:layout_width="84dp"
+            android:layout_height="77dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="159dp"
+            android:layout_marginTop="37dp"
+            android:layout_marginEnd="164dp"
+            android:layout_marginBottom="611dp"
+            app:srcCompat="@drawable/apollo" />
+
+        <TextView
+            android:id="@+id/textView29"
+            android:layout_width="256dp"
+            android:layout_height="33dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="68dp"
+            android:layout_marginTop="120dp"
+            android:layout_marginEnd="82dp"
+            android:layout_marginBottom="572dp"
+            android:text="태양,시,궁술,예언의 신 '아폴론"
+            android:textSize="20sp"
+            android:textStyle="italic" />
 
 
     </RelativeLayout>

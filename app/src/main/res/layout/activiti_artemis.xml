@@ -3,6 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:background="@drawable/background"
     android:layout_height="match_parent">
 
     <RelativeLayout
@@ -20,46 +21,33 @@
 
         <ImageView
             android:id="@+id/artemis"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
             android:layout_marginStart="0dp"
-            android:layout_marginTop="2dp"
-            android:layout_marginEnd="0dp"
-            android:layout_marginBottom="517dp"
+            android:layout_marginTop="186dp"
+            android:layout_marginEnd="239dp"
+            android:layout_marginBottom="310dp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:srcCompat="@drawable/artemis2" />
 
-        <TextView
-            android:id="@+id/artemisok"
-            android:layout_width="403dp"
+
+        <VideoView
+            android:id="@+id/artemisvideo"
+            android:layout_width="250dp"
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
-            android:layout_marginStart="1dp"
-            android:layout_marginTop="440dp"
-            android:layout_marginEnd="3dp"
-            android:layout_marginBottom="201dp"
-            app:layout_constraintStart_toStartOf="parent" />
-
-        <VideoView
-            android:id="@+id/artemisvideo"
-            android:layout_width="405dp"
-            android:layout_height="232dp"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentTop="true"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentBottom="true"
-            android:layout_marginStart="2dp"
-            android:layout_marginTop="206dp"
-            android:layout_marginEnd="0dp"
-            android:layout_marginBottom="286dp"
+            android:layout_marginStart="156dp"
+            android:layout_marginTop="187dp"
+            android:layout_marginEnd="1dp"
+            android:layout_marginBottom="309dp"
             tools:ignore="DuplicateIds" />
 
         <Button
@@ -70,12 +58,60 @@
             android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
-            android:layout_marginStart="21dp"
-            android:layout_marginTop="631dp"
-            android:layout_marginEnd="268dp"
-            android:layout_marginBottom="42dp"
-            android:backgroundTint="#1ACCE9"
-            android:text="초기화면" />
+            android:layout_marginStart="144dp"
+            android:layout_marginTop="658dp"
+            android:layout_marginEnd="145dp"
+            android:layout_marginBottom="15dp"
+            android:backgroundTint="#80801b"
+            android:text="메인으로"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView20"
+            android:layout_width="84dp"
+            android:layout_height="77dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="158dp"
+            android:layout_marginTop="29dp"
+            android:layout_marginEnd="174dp"
+            android:layout_marginBottom="624dp"
+            app:srcCompat="@drawable/artemis" />
+
+        <TextView
+            android:id="@+id/textView28"
+            android:layout_width="276dp"
+            android:layout_height="33dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="63dp"
+            android:layout_marginTop="118dp"
+            android:layout_marginEnd="68dp"
+            android:layout_marginBottom="574dp"
+            android:text="달,역병,순결의 여신 '아르테미스"
+            android:textSize="20sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/textView39"
+            android:layout_width="396dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="417dp"
+            android:layout_marginEnd="4dp"
+            android:layout_marginBottom="67dp"
+            android:text="신들의 왕 제우스와 티탄 신족 지혜의 신 코이오스와 예언의 여신 포이베의 장녀인 레토 슬하의 1남 1녀 이자 아폴론과는 쌍둥이 남매 사이이다. 이모이자 별들의 여신 아스테리아의 조카딸이며 페르세스는 아르테미스의 이모부이다. 마술과 마법, 주술, 그믐달의 여신 헤카테와는 같은 달의 여신이자 이종 사촌 자매이다.
+
+아르테미스는 월신[1]이자 수렵, 궁술, 순결의 신으로 황야, 숲, 샘, 호수, 산, 짐승, 산맥, 식물처럼 야생과 자연의 모든 것들을 관장하는 신이자, 소녀, 처녀들의 수호신이라고 한다. 거기에 야생, 수렵의 여신이며, 궁수, 사냥꾼들의 수호신이기도 하다. 신화 내에서 궁술에 뛰어난 영웅들은 아르테미스의 열렬한 신봉자인 경우가 많다. 칼리돈의 멧돼지 사냥에서 우승한 그리스 최고의 대영웅이자 아르카디아의 공주 아탈란테가 그 예시.
+" />
 
 
     </RelativeLayout>
